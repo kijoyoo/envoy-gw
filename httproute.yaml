@@ -5,7 +5,7 @@ metadata:
   namespace: redis-login-demo
 spec:
   parentRefs:
-    - name: redis-gateway
+    - name: gateway-proxy
       namespace: envoy-gateway-system
   hostnames:
     - "envoy.redis.domain"
